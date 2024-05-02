@@ -1,8 +1,11 @@
 # 2025 Safeguarding XMPP Manifesto [DRAFT]
 LICENSE: CC0  
-VERSION: 20240502-00
+VERSION: 20240502-01
 
 The use of “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” is per the IETF standard defined in RFC2119.
+
+# Notice
+This is not sponsored or endorsed by the XMPP Standards Foundation. This is an unofficial writing by a community member.
 
 # Synopsis
 As we look forward to the future we must be proactive in strengthening and guaranteeing a minimum baseline of the network.
@@ -112,7 +115,7 @@ This document outlines mandatory and recommended requirements for publicly feder
 * The client MUST NOT ever automatically download any files from strangers or in public MUCs
 * The client SHOULD NOT send chat state indicators to strangers or in public MUCS by default
 * The client SHOULD store received files in non-public storage on the device by default
-* The client SHOULD relay calls to strangers by default
+* The client SHOULD relay calls to or from strangers by default
 
 # Comments
 
