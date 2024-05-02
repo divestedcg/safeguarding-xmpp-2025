@@ -1,6 +1,6 @@
 # 2025 Safeguarding XMPP Manifesto [DRAFT]
 LICENSE: CC0  
-VERSION: 20240502-01
+VERSION: 20240502-02
 
 The use of “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” is per the IETF standard defined in RFC2119.
 
@@ -62,7 +62,7 @@ This document outlines mandatory and recommended requirements for publicly feder
 * Distinct public facing services SHOULD be isolated to their own (virtual) machine
   * This applies regardless of being sandboxed or confined, all three are RECOMMENDED simultaneously
 * Program allowlisting and integrity checks SHOULD be enforced via eg. fapolicyd
-* Logging should be appropriately balanced to maintain integrity, accountability, and user privacy
+* Logging SHOULD be appropriately balanced to maintain integrity, accountability, and user privacy
 * Secure Boot SHOULD be used if supported by host and operating system
 * Memory SHOULD be encrypted if supported by CPU and/or hypervisor
 * All disks SHOULD be encrypted if possible
