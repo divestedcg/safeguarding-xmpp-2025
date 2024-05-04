@@ -1,6 +1,6 @@
 # 2025 Safeguarding XMPP Manifesto [DRAFT]
 LICENSE: CC0  
-VERSION: 20240502-02
+VERSION: 20240504-00
 
 The use of “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” is per the IETF standard defined in RFC2119.
 
@@ -104,7 +104,7 @@ This document outlines mandatory and recommended requirements for publicly feder
 * DNSSEC SHOULD be enforced for lookups
 * Certificate fingerprints MUST be verified if TLSA records are available
 * Channel binding MUST be perpetually enforced for a server if ever utilized
-* Clients SHOULD robustly attempt reconnection to MUCs after they are rebooted
+* Clients SHOULD robustly attempt reconnection to servers and MUCs after they have been rebooted
 
 ## Messages
 * Some form of E2EE MUST be supported
